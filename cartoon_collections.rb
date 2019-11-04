@@ -4,8 +4,10 @@ def roll_call_dwarves(names)
   end
 end
 
-def summon_captain_planet# code an argument here
-  # Your code here
+def summon_captain_planet(planeteer_calls)
+  planeteer_calls.map do |element|
+    element.capitalize + "!"
+  end
 end
 
 def long_planeteer_calls# code an argument here
@@ -17,4 +19,4 @@ def find_the_cheese# code an argument here
   cheese_types = ["cheddar", "gouda", "camembert"]
 end
 
-roll_call_dwarves(["Doc", "Dopey", "Bashful", "Grumpy"])
+summon_captain_planet(["earth", "wind", "fire", "water", "heart"])
