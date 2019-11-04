@@ -19,7 +19,3 @@ def find_the_cheese(snacks)
   end
   return nil
 end
-
-puts "#{find_the_cheese(["crackers", "gouda", "thyme"])}"
-puts "#{find_the_cheese(["tomato soup", "cheddar", "oyster crackers", "gouda"])}"
-puts "#{find_the_cheese(["garlic", "rosemary", "bread"])}"
