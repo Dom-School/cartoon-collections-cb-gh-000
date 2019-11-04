@@ -17,6 +17,7 @@ def find_the_cheese(snacks)
   cheese_types.each do |cheese|
     return cheese if snacks.include?(cheese)
   end
+  return nil
 end
 
 puts "#{find_the_cheese(["crackers", "gouda", "thyme"])}"
