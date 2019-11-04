@@ -19,5 +19,6 @@ def find_the_cheese(snacks)
   end
 end
 
-puts "#{long_planeteer_calls(["puff", "go", "two"])}"
-puts "#{long_planeteer_calls(["two", "go", "industrious", "bop"])}"
+puts "#{find_the_cheese(["crackers", "gouda", "thyme"])}"
+puts "#{find_the_cheese(["tomato soup", "cheddar", "oyster crackers", "gouda"])}"
+puts "#{find_the_cheese(["garlic", "rosemary", "bread"])}"
